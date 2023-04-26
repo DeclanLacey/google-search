@@ -29,6 +29,8 @@ html, body {
 }
 
 .nav-item {
+    color: white;
+    text-decoration: none;
     margin-right: 15px;
     cursor: pointer;
 }
@@ -101,3 +103,14 @@ html, body {
     margin-bottom: 30px;
 }
 
+
+
+
+            /* /////////////////////////////// Image search page styling ///////////////////////////////// */
+
+.image-subtitle {
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    color: white;
+}
