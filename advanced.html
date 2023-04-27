@@ -9,8 +9,47 @@
     </head>
     <body>
         <div class="content-container">
-            <div class="nav-container"> 
+            <div class="nav-container advanced-nav-container"> 
                 <a class="nav-item" href="index.html"> Search </a>
+            </div>
+            <div class="form-container-advanced">
+                <form class="advanced-form" action="https://www.google.com/search">
+                    <label class="input-label-advanced big-label"> Find pages with...</label>
+                    <div class="input-container">
+                        <label class="input-label-advanced"> all these words: </label>
+                        <input class="advanced-input" type="text" name="as_q" value="">
+                    </div>
+                    <div class="input-container">
+                        <label class="input-label-advanced"> this exact word or phrase: </label>
+                        <input class="advanced-input" type="text" name="as_epq">
+                    </div> 
+                    <div class="input-container">
+                        <label class="input-label-advanced"> any of these words: </label>
+                        <input class="advanced-input" type="text" name="as_oq">
+                    </div> 
+                    <div class="input-container">
+                        <label class="input-label-advanced"> none of these words: </label>
+                        <input class="advanced-input" type="text" name="as_eq">
+                    </div>
+                    <div class="advanced-button-container">
+                        <input type="submit" value="Advanced Search" class="button-advanced button">
+                    </div>
+                </form>
+            </div>
+            <div class="instructions-container">
+                <div class="inst-sub-container">
+                    <p> Type the important words:  <span class="white-text"> tricolor rat terrier </span></p>
+                </div>
+                <div class="inst-sub-container">
+                    <p> Put exact words in quotes:  <span class="white-text">  "rat terrier" </span></p>
+                </div>
+                <div class="inst-sub-container">
+                    <p> Type <span class="white-text"> OR </span> between all the words you want: <span class="white-text"> miniature OR standard </span> </p>
+                </div>
+                <div class="inst-sub-container-long">
+                    <p> Put a minus sign just before words you don't want: </p>
+                    <p class="white-text"> -rodent, -"Jack Russell" </p>
+                </div>
             </div>
         </div>
     </body>

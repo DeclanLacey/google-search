@@ -64,7 +64,7 @@ html, body {
     height: 40px;
     border: none;
     border-radius: 25px;
-    border: 1px solid white;
+    border: 1px solid #8a817c;
     background-color: #232323;
     color: white;
     padding-left: 20px;
@@ -112,5 +112,87 @@ html, body {
     margin: 0px;
     margin-bottom: 10px;
     margin-top: -20px;
+    color: white;
+}
+
+
+            /* ////////////////////////////////// Advanced Search styling ///////////////////////////////////// */
+
+.advanced-nav-container {
+    grid-column: 2;
+}
+
+.form-container-advanced {
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 400px;
+    width: 700px;
+    margin-right: 0px;
+}
+
+.advanced-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.big-label {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.advanced-input {
+    all: unset;
+    height: 30px;
+    width: 350px;
+    background-color: #343434;
+    border: 1px solid #8a817c;
+    padding-left: 15px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-label-advanced {
+    margin-right: 50px;
+}
+
+.button-advanced {
+    width: 120px;
+    background-color: #4ea8de;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.advanced-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.instructions-container {
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #9a8f97;
+    margin-left: 0px;
+    min-width: 480px;
+}
+
+.inst-sub-container-long {
+    line-height: 0px;
+    height: 38px;
+}
+
+.white-text {
     color: white;
 }
